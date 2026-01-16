@@ -14,7 +14,14 @@ This Chrome extension adds convenient "Send to SABnzbd" buttons to NZBgeek.info 
 
 ## Installation
 
-### Step 1: Create Icons (Optional but Recommended)
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/jeroenflvr/geeknzb-dnl.git
+cd geeknzb-dnl
+```
+
+### Step 2: Create Icons (Optional but Recommended)
 
 The extension needs icon files. You can:
 
@@ -32,7 +39,7 @@ Alternatively, you can use online icon generators or the following quick method:
 - Create a simple icon with text "NZB" or "SAB"
 - Download and rename the files as needed
 
-### Step 2: Load the Extension in Chrome
+### Step 3: Load the Extension in Chrome
 
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable "Developer mode" (toggle in the top right)
@@ -40,7 +47,7 @@ Alternatively, you can use online icon generators or the following quick method:
 4. Select the `nzbgeek-sabnzbd-extension` folder
 5. The extension should now appear in your extensions list
 
-### Step 3: Configure SABnzbd Settings
+### Step 4: Configure SABnzbd Settings
 
 1. Click the extension icon in your Chrome toolbar
 2. Click "Open Settings" or right-click the extension and select "Options"
