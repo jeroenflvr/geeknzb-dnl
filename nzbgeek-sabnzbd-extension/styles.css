@@ -1,0 +1,39 @@
+.sabnzbd-btn-container {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.sabnzbd-btn {
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.sabnzbd-btn-movies {
+  background-color: #E91E63;
+}
+
+.sabnzbd-btn-movies:hover:not(:disabled) {
+  background-color: #C2185B;
+}
+
+.sabnzbd-btn-series {
+  background-color: #2196F3;
+}
+
+.sabnzbd-btn-series:hover:not(:disabled) {
+  background-color: #1976D2;
+}
+
+.sabnzbd-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

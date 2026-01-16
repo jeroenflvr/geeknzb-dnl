@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NZBgeek to SABnzbd</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    h2 {
+      margin-top: 0;
+      color: #333;
+      font-size: 16px;
+    }
+    .status-item {
+      margin-bottom: 10px;
+      padding: 8px;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    .status-label {
+      font-weight: bold;
+      color: #555;
+    }
+    .status-value {
+      color: #333;
+    }
+    .connected {
+      color: #4CAF50;
+    }
+    .disconnected {
+      color: #f44336;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .link {
+      color: #2196F3;
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h2>NZBgeek to SABnzbd</h2>
+  
+  <div class="status-item">
+    <span class="status-label">Status:</span>
+    <span id="connectionStatus" class="status-value">Checking...</span>
+  </div>
+  
+  <div class="status-item">
+    <span class="status-label">SABnzbd:</span>
+    <span id="sabVersion" class="status-value">-</span>
+  </div>
+  
+  <button id="openSettings">Open Settings</button>
+  
+  <div style="margin-top: 15px; text-align: center;">
+    <a href="https://nzbgeek.info" target="_blank" class="link">Open NZBgeek</a>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
